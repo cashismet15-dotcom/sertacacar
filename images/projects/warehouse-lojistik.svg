@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="İzmir Lojistik Depo Kompleksi - Yükleme rampalı büyük çelik depo yapısı">
+  <title>İzmir Lojistik Depo Kompleksi</title>
+  <defs>
+    <pattern id="grid-wl" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(234,228,212,0.04)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="sky-wl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080d11"/>
+      <stop offset="100%" stop-color="#151c24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sky-wl)"/>
+  <rect width="800" height="600" fill="url(#grid-wl)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="460" width="800" height="140" fill="#0c1219"/>
+  <line x1="0" y1="460" x2="800" y2="460" stroke="rgba(234,228,212,0.1)" stroke-width="1"/>
+
+  <!-- Concrete apron / truck yard -->
+  <rect x="0" y="460" width="800" height="40" fill="#111820"/>
+  <!-- Apron markings -->
+  <line x1="100" y1="462" x2="100" y2="498" stroke="rgba(234,228,212,0.06)" stroke-width="1" stroke-dasharray="8,6"/>
+  <line x1="250" y1="462" x2="250" y2="498" stroke="rgba(234,228,212,0.06)" stroke-width="1" stroke-dasharray="8,6"/>
+  <line x1="400" y1="462" x2="400" y2="498" stroke="rgba(234,228,212,0.06)" stroke-width="1" stroke-dasharray="8,6"/>
+  <line x1="550" y1="462" x2="550" y2="498" stroke="rgba(234,228,212,0.06)" stroke-width="1" stroke-dasharray="8,6"/>
+  <line x1="700" y1="462" x2="700" y2="498" stroke="rgba(234,228,212,0.06)" stroke-width="1" stroke-dasharray="8,6"/>
+
+  <!-- Truck silhouette (side view) -->
+  <rect x="580" y="418" width="140" height="42" fill="#131a21" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <rect x="580" y="408" width="50" height="10" fill="#131a21" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <circle cx="605" cy="460" r="10" fill="#0d1218" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <circle cx="690" cy="460" r="10" fill="#0d1218" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <circle cx="718" cy="460" r="10" fill="#0d1218" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+
+  <!-- Main warehouse building - massive wide structure -->
+  <!-- Back wall -->
+  <rect x="60" y="230" width="680" height="230" fill="#141b22" stroke="rgba(234,228,212,0.6)" stroke-width="1.5"/>
+
+  <!-- Portal frame rafters (roof structure visible) -->
+  <line x1="60" y1="230" x2="200" y2="195" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <line x1="400" y1="175" x2="200" y2="195" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <line x1="400" y1="175" x2="600" y2="195" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <line x1="740" y1="230" x2="600" y2="195" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <!-- Ridge -->
+  <line x1="60" y1="230" x2="400" y2="175" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+  <line x1="400" y1="175" x2="740" y2="230" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+
+  <!-- Roof panel lines -->
+  <line x1="130" y1="211" x2="400" y2="175" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+  <line x1="200" y1="195" x2="400" y2="175" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+  <line x1="270" y1="200" x2="400" y2="175" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+  <line x1="470" y1="182" x2="400" y2="175" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+  <line x1="540" y1="187" x2="400" y2="175" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+  <line x1="610" y1="192" x2="400" y2="175" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+  <line x1="670" y1="209" x2="400" y2="175" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+
+  <!-- Canopy over loading dock -->
+  <rect x="60" y="380" width="680" height="24" fill="#1a2330" stroke="rgba(234,228,212,0.45)" stroke-width="1.2"/>
+  <!-- Canopy supports -->
+  <rect x="100" y="380" width="6" height="80" fill="#252f38"/>
+  <rect x="220" y="380" width="6" height="80" fill="#252f38"/>
+  <rect x="340" y="380" width="6" height="80" fill="#252f38"/>
+  <rect x="460" y="380" width="6" height="80" fill="#252f38"/>
+  <rect x="580" y="380" width="6" height="80" fill="#252f38"/>
+  <rect x="700" y="380" width="6" height="80" fill="#252f38"/>
+
+  <!-- Loading dock doors (5 bays) -->
+  <!-- Dock 1 -->
+  <rect x="72" y="404" width="100" height="56" fill="rgba(234,228,212,0.06)" stroke="rgba(234,228,212,0.5)" stroke-width="1.2"/>
+  <rect x="72" y="404" width="100" height="18" fill="#1e2830" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <line x1="122" y1="404" x2="122" y2="460" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <!-- Dock leveler -->
+  <rect x="80" y="454" width="84" height="6" fill="rgba(183,80,31,0.3)" stroke="rgba(183,80,31,0.5)" stroke-width="1"/>
+
+  <!-- Dock 2 -->
+  <rect x="192" y="404" width="100" height="56" fill="rgba(234,228,212,0.06)" stroke="rgba(234,228,212,0.5)" stroke-width="1.2"/>
+  <rect x="192" y="404" width="100" height="18" fill="#1e2830" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <line x1="242" y1="404" x2="242" y2="460" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <rect x="200" y="454" width="84" height="6" fill="rgba(183,80,31,0.3)" stroke="rgba(183,80,31,0.5)" stroke-width="1"/>
+
+  <!-- Dock 3 - open with truck visible -->
+  <rect x="312" y="404" width="100" height="56" fill="rgba(183,80,31,0.08)" stroke="rgba(183,80,31,0.55)" stroke-width="1.5"/>
+  <rect x="312" y="404" width="100" height="8" fill="rgba(183,80,31,0.25)" stroke="rgba(183,80,31,0.4)" stroke-width="1"/>
+  <rect x="320" y="454" width="84" height="6" fill="rgba(183,80,31,0.4)" stroke="rgba(183,80,31,0.6)" stroke-width="1"/>
+
+  <!-- Dock 4 -->
+  <rect x="432" y="404" width="100" height="56" fill="rgba(234,228,212,0.06)" stroke="rgba(234,228,212,0.5)" stroke-width="1.2"/>
+  <rect x="432" y="404" width="100" height="18" fill="#1e2830" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <line x1="482" y1="404" x2="482" y2="460" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <rect x="440" y="454" width="84" height="6" fill="rgba(183,80,31,0.3)" stroke="rgba(183,80,31,0.5)" stroke-width="1"/>
+
+  <!-- Dock 5 -->
+  <rect x="552" y="404" width="100" height="56" fill="rgba(234,228,212,0.06)" stroke="rgba(234,228,212,0.5)" stroke-width="1.2"/>
+  <rect x="552" y="404" width="100" height="18" fill="#1e2830" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <line x1="602" y1="404" x2="602" y2="460" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <rect x="560" y="454" width="84" height="6" fill="rgba(183,80,31,0.3)" stroke="rgba(183,80,31,0.5)" stroke-width="1"/>
+
+  <!-- Side door / personnel entrance -->
+  <rect x="680" y="418" width="40" height="42" fill="rgba(234,228,212,0.08)" stroke="rgba(234,228,212,0.45)" stroke-width="1"/>
+
+  <!-- High windows strip near top of wall -->
+  <rect x="75" y="262" width="650" height="50" fill="rgba(183,80,31,0.08)" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <!-- Window dividers -->
+  <line x1="200" y1="262" x2="200" y2="312" stroke="rgba(234,228,212,0.15)" stroke-width="1"/>
+  <line x1="330" y1="262" x2="330" y2="312" stroke="rgba(234,228,212,0.15)" stroke-width="1"/>
+  <line x1="460" y1="262" x2="460" y2="312" stroke="rgba(234,228,212,0.15)" stroke-width="1"/>
+  <line x1="590" y1="262" x2="590" y2="312" stroke="rgba(234,228,212,0.15)" stroke-width="1"/>
+
+  <!-- Fire hydrant / safety marker -->
+  <rect x="42" y="440" width="8" height="20" fill="rgba(183,80,31,0.6)" stroke="rgba(183,80,31,0.8)" stroke-width="1"/>
+
+  <!-- Dimension line -->
+  <line x1="60" y1="555" x2="740" y2="555" stroke="rgba(183,80,31,0.45)" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="60" y1="549" x2="60" y2="561" stroke="rgba(183,80,31,0.5)" stroke-width="1.5"/>
+  <line x1="740" y1="549" x2="740" y2="561" stroke="rgba(183,80,31,0.5)" stroke-width="1.5"/>
+  <text x="400" y="575" font-family="monospace" font-size="11" fill="rgba(183,80,31,0.75)" text-anchor="middle" letter-spacing="0.08em">85.00 m</text>
+
+  <!-- Label -->
+  <rect x="16" y="16" width="6" height="6" fill="#B7501F"/>
+  <text x="28" y="24" font-family="monospace" font-size="10" fill="rgba(183,80,31,0.85)" letter-spacing="0.12em">LOJİSTİK · DEPO</text>
+  <text x="16" y="40" font-family="monospace" font-size="9" fill="rgba(234,228,212,0.3)" letter-spacing="0.08em">2024-009 / İZMİR</text>
+
+  <path d="M16 580 L16 564 L32 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <path d="M784 580 L784 564 L768 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+</svg>

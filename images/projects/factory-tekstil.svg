@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Aydın OSB Tekstil Fabrikası - Dişli (sawtooth) çatılı endüstriyel çelik yapı">
+  <title>Aydın OSB Tekstil Fabrikası</title>
+  <defs>
+    <pattern id="grid-tf" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(234,228,212,0.04)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="sky-tf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f14"/>
+      <stop offset="100%" stop-color="#1A2128"/>
+    </linearGradient>
+    <linearGradient id="wall-tf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e2830"/>
+      <stop offset="100%" stop-color="#131a21"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#sky-tf)"/>
+  <rect width="800" height="600" fill="url(#grid-tf)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="480" width="800" height="120" fill="#0f151c"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+
+  <!-- Pavement -->
+  <rect x="60" y="480" width="680" height="18" fill="#141b23"/>
+
+  <!-- Road markings -->
+  <line x1="400" y1="488" x2="400" y2="498" stroke="rgba(234,228,212,0.15)" stroke-width="6"/>
+  <line x1="200" y1="488" x2="200" y2="498" stroke="rgba(234,228,212,0.08)" stroke-width="2" stroke-dasharray="12,8"/>
+  <line x1="600" y1="488" x2="600" y2="498" stroke="rgba(234,228,212,0.08)" stroke-width="2" stroke-dasharray="12,8"/>
+
+  <!-- Chimney / ventilation stack -->
+  <rect x="695" y="170" width="22" height="220" fill="#131a21" stroke="rgba(234,228,212,0.35)" stroke-width="1.2"/>
+  <rect x="690" y="163" width="32" height="14" fill="#1e2830" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <!-- Smoke suggestion -->
+  <ellipse cx="706" cy="148" rx="14" ry="8" fill="rgba(92,102,113,0.2)"/>
+  <ellipse cx="712" cy="130" rx="10" ry="7" fill="rgba(92,102,113,0.12)"/>
+
+  <!-- Main building base wall -->
+  <rect x="80" y="360" width="600" height="120" fill="url(#wall-tf)" stroke="rgba(234,228,212,0.55)" stroke-width="1.5"/>
+
+  <!-- Sawtooth / north-light roof (5 bays) — classic textile factory feature -->
+  <!-- Bay 1 -->
+  <polygon points="80,360 80,270 200,360" fill="#141b23" stroke="rgba(234,228,212,0.65)" stroke-width="1.5"/>
+  <!-- North glazing bay 1 -->
+  <polygon points="80,270 80,360 90,360 90,270" fill="rgba(183,80,31,0.25)" stroke="rgba(183,80,31,0.6)" stroke-width="1"/>
+  <!-- Bay 2 -->
+  <polygon points="200,360 200,248 320,360" fill="#1a2128" stroke="rgba(234,228,212,0.65)" stroke-width="1.5"/>
+  <polygon points="200,248 200,360 210,360 210,248" fill="rgba(183,80,31,0.25)" stroke="rgba(183,80,31,0.6)" stroke-width="1"/>
+  <!-- Bay 3 -->
+  <polygon points="320,360 320,260 440,360" fill="#141b23" stroke="rgba(234,228,212,0.65)" stroke-width="1.5"/>
+  <polygon points="320,260 320,360 330,360 330,260" fill="rgba(183,80,31,0.25)" stroke="rgba(183,80,31,0.6)" stroke-width="1"/>
+  <!-- Bay 4 -->
+  <polygon points="440,360 440,248 560,360" fill="#1a2128" stroke="rgba(234,228,212,0.65)" stroke-width="1.5"/>
+  <polygon points="440,248 440,360 450,360 450,248" fill="rgba(183,80,31,0.25)" stroke="rgba(183,80,31,0.6)" stroke-width="1"/>
+  <!-- Bay 5 -->
+  <polygon points="560,360 560,265 680,360" fill="#141b23" stroke="rgba(234,228,212,0.65)" stroke-width="1.5"/>
+  <polygon points="560,265 560,360 570,360 570,265" fill="rgba(183,80,31,0.25)" stroke="rgba(183,80,31,0.6)" stroke-width="1"/>
+
+  <!-- Vertical structural columns on facade -->
+  <rect x="80" y="360" width="8" height="120" fill="#252f38"/>
+  <rect x="196" y="360" width="8" height="120" fill="#252f38"/>
+  <rect x="316" y="360" width="8" height="120" fill="#252f38"/>
+  <rect x="436" y="360" width="8" height="120" fill="#252f38"/>
+  <rect x="556" y="360" width="8" height="120" fill="#252f38"/>
+  <rect x="672" y="360" width="8" height="120" fill="#252f38"/>
+
+  <!-- Ground floor windows (strip) -->
+  <rect x="96" y="376" width="88" height="48" fill="rgba(183,80,31,0.12)" stroke="rgba(234,228,212,0.35)" stroke-width="1"/>
+  <line x1="140" y1="376" x2="140" y2="424" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <rect x="212" y="376" width="88" height="48" fill="rgba(183,80,31,0.12)" stroke="rgba(234,228,212,0.35)" stroke-width="1"/>
+  <line x1="256" y1="376" x2="256" y2="424" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <!-- Main entrance door -->
+  <rect x="332" y="388" width="72" height="92" fill="rgba(234,228,212,0.08)" stroke="rgba(234,228,212,0.55)" stroke-width="1.5"/>
+  <line x1="368" y1="388" x2="368" y2="480" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <!-- Door handle -->
+  <line x1="360" y1="434" x2="368" y2="434" stroke="rgba(234,228,212,0.6)" stroke-width="2"/>
+  <rect x="452" y="376" width="88" height="48" fill="rgba(183,80,31,0.12)" stroke="rgba(234,228,212,0.35)" stroke-width="1"/>
+  <line x1="496" y1="376" x2="496" y2="424" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+  <rect x="572" y="376" width="88" height="48" fill="rgba(183,80,31,0.12)" stroke="rgba(234,228,212,0.35)" stroke-width="1"/>
+  <line x1="616" y1="376" x2="616" y2="424" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+
+  <!-- Dimension line -->
+  <line x1="80" y1="548" x2="680" y2="548" stroke="rgba(183,80,31,0.45)" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="80" y1="542" x2="80" y2="554" stroke="rgba(183,80,31,0.5)" stroke-width="1.5"/>
+  <line x1="680" y1="542" x2="680" y2="554" stroke="rgba(183,80,31,0.5)" stroke-width="1.5"/>
+  <text x="380" y="568" font-family="monospace" font-size="11" fill="rgba(183,80,31,0.75)" text-anchor="middle" letter-spacing="0.08em">60.00 m</text>
+
+  <!-- Project label -->
+  <rect x="16" y="16" width="6" height="6" fill="#B7501F"/>
+  <text x="28" y="24" font-family="monospace" font-size="10" fill="rgba(183,80,31,0.85)" letter-spacing="0.12em">ENDÜSTRİYEL · FABRİKA</text>
+  <text x="16" y="40" font-family="monospace" font-size="9" fill="rgba(234,228,212,0.3)" letter-spacing="0.08em">2024-014 / AYDIN OSB</text>
+
+  <!-- Corner marks -->
+  <path d="M16 580 L16 564 L32 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <path d="M784 580 L784 564 L768 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+</svg>

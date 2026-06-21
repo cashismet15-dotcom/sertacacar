@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Çeşme Butik Otel Prefabrik Yapısı - Deniz manzaralı modüler prefabrik otel binası">
+  <title>Çeşme Butik Otel Prefabrik Yapısı</title>
+  <defs>
+    <pattern id="grid-oc" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(234,228,212,0.04)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="sky-oc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080e18"/>
+      <stop offset="65%" stop-color="#122030"/>
+      <stop offset="100%" stop-color="#0e1c2e"/>
+    </linearGradient>
+    <linearGradient id="sea-oc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d2040"/>
+      <stop offset="100%" stop-color="#081428"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sky-oc)"/>
+  <rect width="800" height="600" fill="url(#grid-oc)"/>
+
+  <!-- Stars -->
+  <circle cx="100" cy="40" r="1" fill="rgba(234,228,212,0.4)"/>
+  <circle cx="250" cy="28" r="1.2" fill="rgba(234,228,212,0.35)"/>
+  <circle cx="420" cy="50" r="1" fill="rgba(234,228,212,0.3)"/>
+  <circle cx="560" cy="32" r="1.3" fill="rgba(234,228,212,0.4)"/>
+  <circle cx="680" cy="45" r="1" fill="rgba(234,228,212,0.35)"/>
+  <circle cx="750" cy="22" r="1.2" fill="rgba(234,228,212,0.3)"/>
+
+  <!-- Sea -->
+  <rect x="0" y="480" width="800" height="120" fill="url(#sea-oc)"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="rgba(92,102,113,0.3)" stroke-width="1"/>
+  <!-- Waves -->
+  <path d="M0 496 Q60 490 120 496 Q180 502 240 496 Q300 490 360 496 Q420 502 480 495 Q540 488 600 495 Q660 502 720 496 Q760 491 800 495" fill="none" stroke="rgba(234,228,212,0.07)" stroke-width="1.5"/>
+  <path d="M0 514 Q80 508 160 514 Q240 520 320 512 Q400 504 480 512 Q560 520 640 513 Q720 506 800 511" fill="none" stroke="rgba(234,228,212,0.05)" stroke-width="1"/>
+
+  <!-- Sailing boats in sea -->
+  <path d="M680 464 L692 440 L692 464 Z" fill="rgba(234,228,212,0.08)" stroke="rgba(234,228,212,0.12)" stroke-width="1"/>
+  <line x1="692" y1="440" x2="692" y2="470" stroke="rgba(234,228,212,0.1)" stroke-width="1"/>
+  <path d="M692 460 L710 460 L692 468 Z" fill="rgba(234,228,212,0.06)"/>
+
+  <!-- Ground / terrace level -->
+  <rect x="0" y="460" width="800" height="22" fill="#0e1824"/>
+  <line x1="0" y1="460" x2="800" y2="460" stroke="rgba(234,228,212,0.1)" stroke-width="1"/>
+
+  <!-- Landscaping / pool area -->
+  <ellipse cx="680" cy="442" rx="60" ry="18" fill="rgba(13,32,64,0.5)" stroke="rgba(92,102,113,0.4)" stroke-width="1"/>
+  <text x="680" y="446" font-family="monospace" font-size="8" fill="rgba(92,102,113,0.4)" text-anchor="middle">HAVUZ</text>
+
+  <!-- MODULAR HOTEL BUILDING — stepped terraces, seaside aesthetic -->
+  <!-- Module grid: 4 modules wide x 3 stories -->
+
+  <!-- GROUND FLOOR -->
+  <rect x="80" y="370" width="540" height="90" fill="#1a2840" stroke="rgba(234,228,212,0.6)" stroke-width="1.5"/>
+  <!-- Ground floor roof (terrace for 1st floor) -->
+  <rect x="75" y="358" width="550" height="14" fill="#1e2e44" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+
+  <!-- Ground floor module divisions (lobby + 5 rooms) -->
+  <line x1="186" y1="370" x2="186" y2="460" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+  <line x1="292" y1="370" x2="292" y2="460" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+  <line x1="398" y1="370" x2="398" y2="460" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+  <line x1="504" y1="370" x2="504" y2="460" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+
+  <!-- Ground floor: large lobby glass front -->
+  <rect x="90" y="378" width="82" height="80" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.45)" stroke-width="1.2"/>
+  <line x1="131" y1="378" x2="131" y2="458" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <line x1="90" y1="415" x2="172" y2="415" stroke="rgba(234,228,212,0.15)" stroke-width="1"/>
+  <!-- Lobby entrance -->
+  <rect x="108" y="412" width="46" height="48" fill="rgba(234,228,212,0.08)" stroke="rgba(234,228,212,0.5)" stroke-width="1.2"/>
+  <line x1="131" y1="412" x2="131" y2="460" stroke="rgba(234,228,212,0.25)" stroke-width="1"/>
+
+  <!-- Ground floor rooms -->
+  <rect x="200" y="385" width="80" height="62" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <rect x="306" y="385" width="80" height="62" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <rect x="412" y="385" width="80" height="62" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <rect x="518" y="385" width="80" height="62" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <!-- Room balcony rails -->
+  <line x1="200" y1="372" x2="280" y2="372" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="306" y1="372" x2="386" y2="372" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="412" y1="372" x2="492" y2="372" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="518" y1="372" x2="598" y2="372" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+
+  <!-- FIRST FLOOR (setback slightly on left) -->
+  <rect x="140" y="280" width="480" height="80" fill="#1c2c44" stroke="rgba(234,228,212,0.6)" stroke-width="1.5"/>
+  <rect x="135" y="268" width="490" height="14" fill="#223244" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+
+  <!-- First floor module divisions -->
+  <line x1="246" y1="280" x2="246" y2="360" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+  <line x1="352" y1="280" x2="352" y2="360" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+  <line x1="458" y1="280" x2="458" y2="360" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+  <line x1="564" y1="280" x2="564" y2="360" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+
+  <!-- First floor rooms -->
+  <rect x="150" y="290" width="84" height="60" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <rect x="256" y="290" width="84" height="60" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <rect x="362" y="290" width="84" height="60" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <rect x="468" y="290" width="84" height="60" fill="rgba(183,80,31,0.1)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <rect x="574" y="290" width="44" height="60" fill="rgba(183,80,31,0.08)" stroke="rgba(234,228,212,0.35)" stroke-width="1"/>
+
+  <!-- First floor balcony railings (for each room) -->
+  <line x1="150" y1="282" x2="234" y2="282" stroke="rgba(234,228,212,0.35)" stroke-width="2"/>
+  <line x1="256" y1="282" x2="340" y2="282" stroke="rgba(234,228,212,0.35)" stroke-width="2"/>
+  <line x1="362" y1="282" x2="446" y2="282" stroke="rgba(234,228,212,0.35)" stroke-width="2"/>
+  <line x1="468" y1="282" x2="552" y2="282" stroke="rgba(234,228,212,0.35)" stroke-width="2"/>
+  <!-- Balcony balusters -->
+  <line x1="160" y1="270" x2="160" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="180" y1="270" x2="180" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="200" y1="270" x2="200" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="220" y1="270" x2="220" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="266" y1="270" x2="266" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="286" y1="270" x2="286" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="306" y1="270" x2="306" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="326" y1="270" x2="326" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="372" y1="270" x2="372" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="392" y1="270" x2="392" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="412" y1="270" x2="412" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="432" y1="270" x2="432" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="478" y1="270" x2="478" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="498" y1="270" x2="498" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="518" y1="270" x2="518" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+  <line x1="538" y1="270" x2="538" y2="283" stroke="rgba(234,228,212,0.25)" stroke-width="1.5"/>
+
+  <!-- SECOND FLOOR (further setback) -->
+  <rect x="200" y="196" width="360" height="86" fill="#1e3048" stroke="rgba(234,228,212,0.6)" stroke-width="1.5"/>
+  <rect x="195" y="184" width="370" height="14" fill="#243854" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+
+  <!-- Second floor modules -->
+  <line x1="320" y1="196" x2="320" y2="282" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+  <line x1="440" y1="196" x2="440" y2="282" stroke="rgba(234,228,212,0.15)" stroke-width="1.5"/>
+
+  <!-- Second floor rooms -->
+  <rect x="210" y="206" width="98" height="66" fill="rgba(183,80,31,0.12)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <line x1="259" y1="206" x2="259" y2="272" stroke="rgba(234,228,212,0.18)" stroke-width="1"/>
+  <rect x="330" y="206" width="98" height="66" fill="rgba(183,80,31,0.12)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <line x1="379" y1="206" x2="379" y2="272" stroke="rgba(234,228,212,0.18)" stroke-width="1"/>
+  <rect x="450" y="206" width="98" height="66" fill="rgba(183,80,31,0.12)" stroke="rgba(234,228,212,0.4)" stroke-width="1"/>
+  <line x1="499" y1="206" x2="499" y2="272" stroke="rgba(234,228,212,0.18)" stroke-width="1"/>
+
+  <!-- Second floor balcony rail -->
+  <line x1="200" y1="197" x2="560" y2="197" stroke="rgba(234,228,212,0.45)" stroke-width="2"/>
+  <line x1="210" y1="186" x2="210" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="240" y1="186" x2="240" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="270" y1="186" x2="270" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="300" y1="186" x2="300" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="340" y1="186" x2="340" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="370" y1="186" x2="370" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="400" y1="186" x2="400" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="430" y1="186" x2="430" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="460" y1="186" x2="460" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="490" y1="186" x2="490" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="520" y1="186" x2="520" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="550" y1="186" x2="550" y2="198" stroke="rgba(234,228,212,0.3)" stroke-width="1.5"/>
+  <line x1="200" y1="186" x2="560" y2="186" stroke="rgba(234,228,212,0.45)" stroke-width="2"/>
+
+  <!-- Flat roof / rooftop bar -->
+  <rect x="195" y="174" width="370" height="12" fill="#2a3e56" stroke="rgba(234,228,212,0.35)" stroke-width="1"/>
+  <!-- Rooftop elements -->
+  <line x1="220" y1="160" x2="220" y2="176" stroke="rgba(234,228,212,0.2)" stroke-width="1.5"/>
+  <line x1="380" y1="158" x2="380" y2="176" stroke="rgba(234,228,212,0.2)" stroke-width="1.5"/>
+  <line x1="540" y1="162" x2="540" y2="176" stroke="rgba(234,228,212,0.2)" stroke-width="1.5"/>
+  <!-- Umbrella/parasol outlines (rooftop bar) -->
+  <path d="M360 162 Q380 152 400 162" fill="rgba(183,80,31,0.15)" stroke="rgba(183,80,31,0.4)" stroke-width="1"/>
+  <line x1="380" y1="162" x2="380" y2="174" stroke="rgba(183,80,31,0.3)" stroke-width="1"/>
+
+  <!-- Unit count label -->
+  <rect x="615" y="295" width="155" height="48" fill="rgba(183,80,31,0.08)" stroke="rgba(183,80,31,0.3)" stroke-width="1"/>
+  <text x="692" y="313" font-family="monospace" font-size="9" fill="rgba(183,80,31,0.65)" text-anchor="middle" letter-spacing="0.08em">22 ÜNİTE</text>
+  <text x="692" y="328" font-family="monospace" font-size="8" fill="rgba(234,228,212,0.25)" text-anchor="middle" letter-spacing="0.06em">3 KAT MODÜLER</text>
+
+  <!-- Label -->
+  <rect x="16" y="16" width="6" height="6" fill="#B7501F"/>
+  <text x="28" y="24" font-family="monospace" font-size="10" fill="rgba(183,80,31,0.85)" letter-spacing="0.12em">KONUT · OTEL · PREFABRİK</text>
+  <text x="16" y="40" font-family="monospace" font-size="9" fill="rgba(234,228,212,0.3)" letter-spacing="0.08em">2024-007 / ÇEŞME · İZMİR</text>
+
+  <path d="M16 580 L16 564 L32 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <path d="M784 580 L784 564 L768 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+</svg>

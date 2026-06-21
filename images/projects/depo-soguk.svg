@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Eskişehir Soğuk Hava Deposu - İzolasyonlu panel çelik soğuk hava depo yapısı">
+  <title>Eskişehir Soğuk Hava Deposu</title>
+  <defs>
+    <pattern id="grid-ds" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(234,228,212,0.04)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="sky-ds" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080c13"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="insul-ds" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2940"/>
+      <stop offset="100%" stop-color="#141f30"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sky-ds)"/>
+  <rect width="800" height="600" fill="url(#grid-ds)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="470" width="800" height="130" fill="#0a1018"/>
+  <line x1="0" y1="470" x2="800" y2="470" stroke="rgba(234,228,212,0.08)" stroke-width="1"/>
+  <rect x="0" y="470" width="800" height="20" fill="#0f1820"/>
+
+  <!-- COLD STORAGE BUILDING — thick insulated panels, no windows, roof HVAC -->
+  <!-- Main building - heavier/thicker walls -->
+  <!-- Left thick wall (insulation visible) -->
+  <rect x="80" y="220" width="30" height="250" fill="url(#insul-ds)" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+  <!-- Right thick wall -->
+  <rect x="690" y="220" width="30" height="250" fill="url(#insul-ds)" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+  <!-- Main facade -->
+  <rect x="110" y="220" width="580" height="250" fill="#131c28" stroke="rgba(234,228,212,0.55)" stroke-width="1.5"/>
+
+  <!-- Roof slab (flat, heavy insulated) -->
+  <rect x="75" y="206" width="650" height="18" fill="#1e2c40" stroke="rgba(234,228,212,0.6)" stroke-width="1.5"/>
+  <!-- Insulation layer visible on roof -->
+  <rect x="75" y="200" width="650" height="8" fill="#243450" stroke="rgba(92,102,113,0.4)" stroke-width="1"/>
+
+  <!-- Roof HVAC / Refrigeration units -->
+  <!-- Condenser unit 1 -->
+  <rect x="120" y="160" width="80" height="44" fill="#1a2840" stroke="rgba(234,228,212,0.45)" stroke-width="1.2"/>
+  <!-- Fan grille circles -->
+  <circle cx="148" cy="182" r="14" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <circle cx="148" cy="182" r="8" fill="rgba(92,102,113,0.15)" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <circle cx="176" cy="182" r="10" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <!-- Condenser unit 2 -->
+  <rect x="240" y="155" width="90" height="48" fill="#1a2840" stroke="rgba(234,228,212,0.45)" stroke-width="1.2"/>
+  <circle cx="268" cy="179" r="15" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <circle cx="268" cy="179" r="8" fill="rgba(92,102,113,0.15)" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <circle cx="300" cy="179" r="12" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <!-- Condenser unit 3 (large) -->
+  <rect x="380" y="148" width="120" height="56" fill="#1a2840" stroke="rgba(234,228,212,0.5)" stroke-width="1.2"/>
+  <circle cx="418" cy="176" r="18" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <circle cx="418" cy="176" r="10" fill="rgba(92,102,113,0.15)" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <circle cx="462" cy="176" r="15" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <!-- Condenser unit 4 -->
+  <rect x="550" y="158" width="85" height="46" fill="#1a2840" stroke="rgba(234,228,212,0.45)" stroke-width="1.2"/>
+  <circle cx="580" cy="181" r="14" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+  <circle cx="610" cy="181" r="12" fill="rgba(92,102,113,0.2)" stroke="rgba(234,228,212,0.3)" stroke-width="1"/>
+
+  <!-- Pipe connections to roof -->
+  <line x1="160" y1="204" x2="160" y2="204" stroke="rgba(92,102,113,0.5)" stroke-width="3"/>
+  <rect x="155" y="198" width="10" height="8" fill="rgba(92,102,113,0.4)" stroke="rgba(92,102,113,0.6)" stroke-width="1"/>
+  <rect x="278" y="198" width="10" height="8" fill="rgba(92,102,113,0.4)" stroke="rgba(92,102,113,0.6)" stroke-width="1"/>
+  <rect x="435" y="198" width="14" height="8" fill="rgba(92,102,113,0.4)" stroke="rgba(92,102,113,0.6)" stroke-width="1"/>
+  <rect x="580" y="198" width="10" height="8" fill="rgba(92,102,113,0.4)" stroke="rgba(92,102,113,0.6)" stroke-width="1"/>
+
+  <!-- Insulated panel joints on facade -->
+  <line x1="110" y1="220" x2="110" y2="470" stroke="rgba(234,228,212,0.06)" stroke-width="1"/>
+  <line x1="210" y1="220" x2="210" y2="470" stroke="rgba(234,228,212,0.08)" stroke-width="1.5"/>
+  <line x1="310" y1="220" x2="310" y2="470" stroke="rgba(234,228,212,0.08)" stroke-width="1.5"/>
+  <line x1="410" y1="220" x2="410" y2="470" stroke="rgba(234,228,212,0.08)" stroke-width="1.5"/>
+  <line x1="510" y1="220" x2="510" y2="470" stroke="rgba(234,228,212,0.08)" stroke-width="1.5"/>
+  <line x1="610" y1="220" x2="610" y2="470" stroke="rgba(234,228,212,0.08)" stroke-width="1.5"/>
+  <line x1="690" y1="220" x2="690" y2="470" stroke="rgba(234,228,212,0.06)" stroke-width="1"/>
+  <!-- Horizontal panel joints -->
+  <line x1="110" y1="310" x2="690" y2="310" stroke="rgba(234,228,212,0.07)" stroke-width="1.5"/>
+  <line x1="110" y1="390" x2="690" y2="390" stroke="rgba(234,228,212,0.07)" stroke-width="1.5"/>
+
+  <!-- NO WINDOWS (characteristic of cold storage) -->
+  <!-- "NO WINDOWS" annotated -->
+  <text x="400" y="325" font-family="monospace" font-size="8" fill="rgba(234,228,212,0.08)" text-anchor="middle" letter-spacing="0.1em">YALITIMLI SANDVIÇ PANEL</text>
+
+  <!-- Airlock / double door system (cold storage characteristic) -->
+  <!-- Outer door frame -->
+  <rect x="175" y="340" width="90" height="130" fill="rgba(234,228,212,0.05)" stroke="rgba(234,228,212,0.5)" stroke-width="1.5"/>
+  <!-- Inner insulated door (thick) -->
+  <rect x="180" y="345" width="80" height="120" fill="#1a2840" stroke="rgba(92,102,113,0.5)" stroke-width="2"/>
+  <!-- Door insulation fill lines -->
+  <line x1="188" y1="355" x2="252" y2="355" stroke="rgba(92,102,113,0.25)" stroke-width="1"/>
+  <line x1="188" y1="368" x2="252" y2="368" stroke="rgba(92,102,113,0.25)" stroke-width="1"/>
+  <line x1="188" y1="381" x2="252" y2="381" stroke="rgba(92,102,113,0.25)" stroke-width="1"/>
+  <line x1="188" y1="394" x2="252" y2="394" stroke="rgba(92,102,113,0.25)" stroke-width="1"/>
+  <line x1="188" y1="407" x2="252" y2="407" stroke="rgba(92,102,113,0.25)" stroke-width="1"/>
+  <line x1="188" y1="420" x2="252" y2="420" stroke="rgba(92,102,113,0.25)" stroke-width="1"/>
+  <!-- Airlock label -->
+  <text x="220" y="475" font-family="monospace" font-size="8" fill="rgba(92,102,113,0.5)" text-anchor="middle" letter-spacing="0.08em">AIRLOCK</text>
+
+  <!-- Vehicle dock with refrigerated seal -->
+  <rect x="430" y="330" width="120" height="140" fill="rgba(234,228,212,0.04)" stroke="rgba(234,228,212,0.4)" stroke-width="1.5"/>
+  <!-- Insulated dock door -->
+  <rect x="436" y="336" width="108" height="124" fill="#1a2840" stroke="rgba(92,102,113,0.45)" stroke-width="1.5"/>
+  <!-- Dock door panels -->
+  <line x1="436" y1="366" x2="544" y2="366" stroke="rgba(92,102,113,0.3)" stroke-width="1"/>
+  <line x1="436" y1="396" x2="544" y2="396" stroke="rgba(92,102,113,0.3)" stroke-width="1"/>
+  <line x1="436" y1="426" x2="544" y2="426" stroke="rgba(92,102,113,0.3)" stroke-width="1"/>
+  <!-- Dock seal (rubber)  -->
+  <rect x="430" y="328" width="10" height="142" fill="rgba(183,80,31,0.2)" stroke="rgba(183,80,31,0.4)" stroke-width="1"/>
+  <rect x="552" y="328" width="10" height="142" fill="rgba(183,80,31,0.2)" stroke="rgba(183,80,31,0.4)" stroke-width="1"/>
+  <rect x="440" y="326" width="122" height="8" fill="rgba(183,80,31,0.2)" stroke="rgba(183,80,31,0.4)" stroke-width="1"/>
+  <!-- Dock bumpers -->
+  <rect x="432" y="450" width="120" height="8" fill="rgba(183,80,31,0.3)" stroke="rgba(183,80,31,0.5)" stroke-width="1"/>
+
+  <!-- Temperature indicator -->
+  <rect x="620" y="270" width="70" height="42" fill="rgba(92,102,113,0.15)" stroke="rgba(92,102,113,0.4)" stroke-width="1"/>
+  <text x="655" y="286" font-family="monospace" font-size="10" fill="rgba(183,80,31,0.7)" text-anchor="middle">-18°C</text>
+  <text x="655" y="302" font-family="monospace" font-size="8" fill="rgba(234,228,212,0.25)" text-anchor="middle" letter-spacing="0.06em">SOĞUK DEPO</text>
+
+  <!-- Dimension line -->
+  <line x1="80" y1="548" x2="720" y2="548" stroke="rgba(183,80,31,0.45)" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="80" y1="542" x2="80" y2="554" stroke="rgba(183,80,31,0.5)" stroke-width="1.5"/>
+  <line x1="720" y1="542" x2="720" y2="554" stroke="rgba(183,80,31,0.5)" stroke-width="1.5"/>
+  <text x="400" y="568" font-family="monospace" font-size="11" fill="rgba(183,80,31,0.75)" text-anchor="middle" letter-spacing="0.08em">45.00 m</text>
+
+  <!-- Label -->
+  <rect x="16" y="16" width="6" height="6" fill="#B7501F"/>
+  <text x="28" y="24" font-family="monospace" font-size="10" fill="rgba(183,80,31,0.85)" letter-spacing="0.12em">LOJİSTİK · SOĞUK DEPO</text>
+  <text x="16" y="40" font-family="monospace" font-size="9" fill="rgba(234,228,212,0.3)" letter-spacing="0.08em">2022-027 / ESKİŞEHİR</text>
+
+  <path d="M16 580 L16 564 L32 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+  <path d="M784 580 L784 564 L768 564" fill="none" stroke="rgba(234,228,212,0.2)" stroke-width="1"/>
+</svg>

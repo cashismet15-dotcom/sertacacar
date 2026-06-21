@@ -122,18 +122,18 @@ const SERVICES = [
 ];
 
 const PROJECTS = [
-  { code: '2024-014', name: 'Aydın OSB Tekstil Fabrikası', cat: 'endustriyel', year: 2024, area: '12.450 m²', loc: 'Aydın', type: 'Fabrika', icon: 'factory' },
-  { code: '2024-009', name: 'İzmir Lojistik Depo Kompleksi', cat: 'lojistik', year: 2024, area: '8.500 m²', loc: 'İzmir', type: 'Depo', icon: 'warehouse' },
-  { code: '2024-006', name: 'Bodrum Prefabrik Villa Sitesi', cat: 'konut', year: 2024, area: '14 Ünite', loc: 'Muğla', type: 'Villa', icon: 'house' },
-  { code: '2023-018', name: 'Denizli Otomotiv Yedek Parça Hangarı', cat: 'endustriyel', year: 2023, area: '5.200 m²', loc: 'Denizli', type: 'Hangar', icon: 'hangar' },
-  { code: '2023-022', name: 'Bursa Gıda İşleme Tesisi', cat: 'endustriyel', year: 2023, area: '6.800 m²', loc: 'Bursa', type: 'Üretim', icon: 'factory' },
-  { code: '2023-031', name: 'Antalya Kemer Prefabrik Konut Projesi', cat: 'konut', year: 2023, area: '28 Ünite', loc: 'Antalya', type: 'Konut', icon: 'house' },
-  { code: '2024-002', name: 'Ankara Endüstri Mezzanine Sistemi', cat: 'endustriyel', year: 2024, area: '3.000 m²', loc: 'Ankara', type: 'Mezzanine', icon: 'mezzanine' },
-  { code: '2022-027', name: 'Eskişehir Soğuk Hava Deposu', cat: 'lojistik', year: 2022, area: '4.500 m²', loc: 'Eskişehir', type: 'Soğuk Depo', icon: 'warehouse' },
-  { code: '2023-040', name: 'İstanbul Ataşehir Showroom Çelik Yapı', cat: 'ozel', year: 2023, area: '1.800 m²', loc: 'İstanbul', type: 'Ticari', icon: 'showroom' },
-  { code: '2024-011', name: 'Mersin Liman Hangar Projesi', cat: 'lojistik', year: 2024, area: '9.200 m²', loc: 'Mersin', type: 'Hangar', icon: 'hangar' },
-  { code: '2023-015', name: 'Konya OSB Üretim Tesisi', cat: 'endustriyel', year: 2023, area: '7.500 m²', loc: 'Konya', type: 'Fabrika', icon: 'factory' },
-  { code: '2024-007', name: 'Çeşme Butik Otel Prefabrik Yapısı', cat: 'konut', year: 2024, area: '22 Ünite', loc: 'İzmir', type: 'Otel', icon: 'house' }
+  { code: '2024-014', name: 'Aydın OSB Tekstil Fabrikası', cat: 'endustriyel', year: 2024, area: '12.450 m²', loc: 'Aydın', type: 'Fabrika', img: 'images/projects/factory-tekstil.svg', imgAlt: 'Aydın OSB Tekstil Fabrikası — kuzey ışığı (sawtooth) çatılı endüstriyel çelik yapı' },
+  { code: '2024-009', name: 'İzmir Lojistik Depo Kompleksi', cat: 'lojistik', year: 2024, area: '8.500 m²', loc: 'İzmir', type: 'Depo', img: 'images/projects/warehouse-lojistik.svg', imgAlt: 'İzmir Lojistik Depo Kompleksi — beş yükleme rampalı büyük çelik depo yapısı' },
+  { code: '2024-006', name: 'Bodrum Prefabrik Villa Sitesi', cat: 'konut', year: 2024, area: '14 Ünite', loc: 'Muğla', type: 'Villa', img: 'images/projects/villa-bodrum.svg', imgAlt: 'Bodrum Prefabrik Villa Sitesi — deniz manzaralı modern hafif çelik villa' },
+  { code: '2023-018', name: 'Denizli Otomotiv Yedek Parça Hangarı', cat: 'endustriyel', year: 2023, area: '5.200 m²', loc: 'Denizli', type: 'Hangar', img: 'images/projects/hangar-otomotiv.svg', imgAlt: 'Denizli Otomotiv Yedek Parça Hangarı — büyük katlanır kapılı geniş açıklıklı çelik hangar' },
+  { code: '2023-022', name: 'Bursa Gıda İşleme Tesisi', cat: 'endustriyel', year: 2023, area: '6.800 m²', loc: 'Bursa', type: 'Üretim', img: 'images/projects/factory-gida.svg', imgAlt: 'Bursa Gıda İşleme Tesisi — fıçı çatılı hijyenik tasarım çelik üretim binası' },
+  { code: '2023-031', name: 'Antalya Kemer Prefabrik Konut Projesi', cat: 'konut', year: 2023, area: '28 Ünite', loc: 'Antalya', type: 'Konut', img: 'images/projects/konut-antalya.svg', imgAlt: 'Antalya Kemer Prefabrik Konut Projesi — balkonlu sıra prefabrik konut üniteleri' },
+  { code: '2024-002', name: 'Ankara Endüstri Mezzanine Sistemi', cat: 'endustriyel', year: 2024, area: '3.000 m²', loc: 'Ankara', type: 'Mezzanine', img: 'images/projects/mezzanine-ankara.svg', imgAlt: 'Ankara Endüstri Mezzanine Sistemi — iki katlı çelik ara kat ve depolama sistemi kesit görünüşü' },
+  { code: '2022-027', name: 'Eskişehir Soğuk Hava Deposu', cat: 'lojistik', year: 2022, area: '4.500 m²', loc: 'Eskişehir', type: 'Soğuk Depo', img: 'images/projects/depo-soguk.svg', imgAlt: 'Eskişehir Soğuk Hava Deposu — çatı soğutma üniteleri ve izolasyonlu panel çelik yapı' },
+  { code: '2023-040', name: 'İstanbul Ataşehir Showroom Çelik Yapı', cat: 'ozel', year: 2023, area: '1.800 m²', loc: 'İstanbul', type: 'Ticari', img: 'images/projects/showroom-istanbul.svg', imgAlt: 'İstanbul Ataşehir Showroom — cam perde duvar ve açık çelik çerçeveli modern ticari yapı' },
+  { code: '2024-011', name: 'Mersin Liman Hangar Projesi', cat: 'lojistik', year: 2024, area: '9.200 m²', loc: 'Mersin', type: 'Hangar', img: 'images/projects/hangar-liman.svg', imgAlt: 'Mersin Liman Hangar Projesi — liman kıyısında vinçli büyük açıklıklı çelik hangar yapısı' },
+  { code: '2023-015', name: 'Konya OSB Üretim Tesisi', cat: 'endustriyel', year: 2023, area: '7.500 m²', loc: 'Konya', type: 'Fabrika', img: 'images/projects/fabrika-konya.svg', imgAlt: 'Konya OSB Üretim Tesisi — üç açıklıklı portal çerçeve çelik endüstriyel üretim tesisi' },
+  { code: '2024-007', name: 'Çeşme Butik Otel Prefabrik Yapısı', cat: 'konut', year: 2024, area: '22 Ünite', loc: 'İzmir', type: 'Otel', img: 'images/projects/otel-cesme.svg', imgAlt: 'Çeşme Butik Otel Prefabrik Yapısı — deniz manzaralı basamaklı teraslı modüler prefabrik otel binası' }
 ];
 
 const BLOG_POSTS = [
@@ -144,16 +144,6 @@ const BLOG_POSTS = [
   { date: '15 ŞUB 2026', cat: 'MALİYET', title: 'Çelik Yapı Maliyetlerini Etkileyen 7 Kritik Faktör', excerpt: 'Aynı m²\'de neden fiyat farkı? Çelik kalitesi, açıklık, kaplama, lokasyon, statik karmaşıklık — gerçek maliyet bileşenleri.' },
   { date: '28 OCA 2026', cat: 'MALZEME', title: 'Hafif Çelik Profil Seçimi: Galvaniz mi, Boyalı mı?', excerpt: 'Prefabrik konutta kullanılan çelik profillerin korozyon koruması, dayanım ve maliyet açısından karşılaştırması.' }
 ];
-
-// SVG icons for project visuals
-const PROJECT_ICONS = {
-  factory: `<svg viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 130 L20 60 L60 60 L60 90 L100 60 L100 90 L140 60 L140 130 Z"/><rect x="30" y="100" width="14" height="30"/><rect x="70" y="100" width="14" height="30"/><rect x="110" y="100" width="14" height="30"/><line x1="20" y1="130" x2="180" y2="130"/><rect x="150" y="30" width="14" height="100"/></svg>`,
-  warehouse: `<svg viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 130 L20 80 L100 40 L180 80 L180 130 Z"/><line x1="20" y1="130" x2="180" y2="130"/><rect x="80" y="90" width="40" height="40"/><line x1="100" y1="90" x2="100" y2="130"/></svg>`,
-  hangar: `<svg viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 130 Q20 50 100 40 Q180 50 180 130 Z"/><line x1="20" y1="130" x2="180" y2="130"/><rect x="80" y="100" width="40" height="30"/></svg>`,
-  house: `<svg viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M40 130 L40 80 L100 40 L160 80 L160 130 Z"/><line x1="40" y1="130" x2="160" y2="130"/><rect x="85" y="95" width="30" height="35"/><rect x="55" y="90" width="20" height="20"/><rect x="125" y="90" width="20" height="20"/></svg>`,
-  mezzanine: `<svg viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="20" y="40" width="160" height="90"/><line x1="20" y1="85" x2="180" y2="85"/><line x1="40" y1="40" x2="40" y2="130"/><line x1="100" y1="40" x2="100" y2="130"/><line x1="160" y1="40" x2="160" y2="130"/></svg>`,
-  showroom: `<svg viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="30" y="50" width="140" height="80"/><line x1="30" y1="130" x2="170" y2="130"/><rect x="50" y="70" width="30" height="60"/><rect x="90" y="70" width="30" height="60"/><rect x="130" y="70" width="30" height="60"/></svg>`
-};
 
 // ============================================
 // ROUTER & PAGE SWITCHING
@@ -276,7 +266,15 @@ function renderProjects(targetId, items, limit) {
   el.innerHTML = list.map(p => `
     <article class="project-card" data-cat="${p.cat}">
       <div class="visual">
-        <div class="silhouette">${PROJECT_ICONS[p.icon] || PROJECT_ICONS.factory}</div>
+        <img
+          src="${p.img}"
+          alt="${p.imgAlt}"
+          loading="lazy"
+          decoding="async"
+          width="400"
+          height="300"
+          class="project-img"
+        >
         <div class="corner">${p.code}</div>
       </div>
       <div class="body">
@@ -289,8 +287,6 @@ function renderProjects(targetId, items, limit) {
       </div>
     </article>
   `).join('');
-  // Set svg color
-  el.querySelectorAll('.silhouette svg').forEach(s => s.style.color = 'rgba(234,228,212,0.85)');
 }
 
 renderProjects('featuredProjects', PROJECTS, 6);
