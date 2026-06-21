@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acarlarcelik.com.tr/sitemap.xml
