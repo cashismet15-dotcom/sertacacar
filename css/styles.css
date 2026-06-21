@@ -306,6 +306,9 @@ h1, h2, h3, h4 {
   .utility-bar .item .label { display: none; }
   .utility-bar .est { display: none; }
 }
+@media (max-width: 540px) {
+  .utility-bar .items > a:first-child { display: none; }
+}
 
 /* ====================================================
    4. HEADER / NAVIGATION
@@ -668,6 +671,9 @@ h1, h2, h3, h4 {
   .hero-bottom { grid-template-columns: 1fr; gap: 32px; }
   .hero-drawing { display: none; }
 }
+@media (max-width: 480px) {
+  .hero-headline { font-size: clamp(36px, 11vw, 56px); }
+}
 
 /* ====================================================
    7. SERVICE GRID
@@ -944,6 +950,10 @@ h1, h2, h3, h4 {
   .stat:nth-child(2) { border-right: none; }
   .stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid rgba(234,228,212,0.2); }
 }
+@media (max-width: 480px) {
+  .stat { padding: 32px 16px; }
+  .stat .num { font-size: clamp(32px, 9vw, 48px); }
+}
 
 /* ====================================================
    10. ABOUT PREVIEW
@@ -1014,7 +1024,8 @@ h1, h2, h3, h4 {
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
-@media (max-width: 880px) { .blog-grid { grid-template-columns: 1fr; } }
+@media (max-width: 880px) { .blog-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .blog-grid { grid-template-columns: 1fr; } }
 
 .blog-card {
   display: flex;
@@ -1074,6 +1085,12 @@ h1, h2, h3, h4 {
   gap: 60px;
 }
 @media (max-width: 880px) { .contact-block { grid-template-columns: 1fr; gap: 40px; } }
+
+.contact-info .value { overflow-wrap: break-word; }
+@media (max-width: 480px) {
+  .contact-info { padding: 36px 24px; }
+  .contact-info .value { font-size: 18px; }
+}
 
 .contact-form { display: flex; flex-direction: column; gap: 20px; }
 .contact-form .field { display: flex; flex-direction: column; gap: 8px; }
@@ -1172,6 +1189,7 @@ h1, h2, h3, h4 {
 }
 @media (max-width: 880px) { .footer .grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 540px) { .footer .grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .footer { padding: 56px 0 24px; } }
 
 .footer .brand { font-family: var(--font-display); font-size: 28px; font-weight: 700; margin-bottom: 16px; color: var(--paper); }
 .footer .brand-desc { color: var(--steel-light); font-size: 14px; line-height: 1.6; max-width: 40ch; }
@@ -1259,7 +1277,8 @@ h1, h2, h3, h4 {
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
-@media (max-width: 880px) { .values-grid { grid-template-columns: 1fr; } }
+@media (max-width: 880px) { .values-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 540px) { .values-grid { grid-template-columns: 1fr; } }
 .value-card {
   padding: 32px 28px;
   background: var(--paper-card);
@@ -1385,3 +1404,79 @@ h1, h2, h3, h4 {
 /* Helper */
 .mt-section { margin-top: var(--section-y); }
 .mb-section { margin-bottom: var(--section-y); }
+
+/* ====================================================
+   15. MOBILE RESPONSIVE IMPROVEMENTS
+   ==================================================== */
+
+/* Timeline: stack year and content on small screens */
+@media (max-width: 600px) {
+  .timeline-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .timeline-row .year { font-size: 12px; }
+}
+
+/* Filter chips: larger touch targets on mobile */
+@media (max-width: 760px) {
+  .filter-chip {
+    padding: 12px 16px;
+    min-height: 44px;
+  }
+}
+
+/* Icon buttons: 44px minimum touch target on mobile */
+@media (max-width: 760px) {
+  .icon-btn { width: 44px; height: 44px; }
+}
+
+/* About preview drawing: less padding on small screens */
+@media (max-width: 540px) {
+  .about-preview .visual .draw { padding: 28px; }
+}
+
+/* CTA band: full-width stacked buttons on phones */
+@media (max-width: 480px) {
+  .cta-band .actions { flex-direction: column; }
+  .cta-band .actions .btn { width: 100%; justify-content: space-between; }
+}
+
+/* Contact form submit button: full-width on phones */
+@media (max-width: 480px) {
+  .contact-form .btn { width: 100%; justify-content: space-between; }
+}
+
+/* Service card: better spacing on small screens */
+@media (max-width: 480px) {
+  .service-card { padding: 28px 22px 24px; min-height: 280px; }
+}
+
+/* Page hero headings: tighter on small phones */
+@media (max-width: 480px) {
+  .page-hero { padding: 44px 0 36px; }
+  .page-hero .crumbs { margin-bottom: 24px; }
+}
+
+/* Section head extra gap on narrow screens */
+@media (max-width: 480px) {
+  .section-head { margin-bottom: 36px; }
+}
+
+/* Process steps: single column on very small screens */
+@media (max-width: 400px) {
+  .process { grid-template-columns: 1fr; }
+}
+
+/* Mobile menu: smaller nav font on tiny screens */
+@media (max-width: 380px) {
+  .mobile-menu nav a { font-size: 22px; }
+  .mobile-menu { padding: 60px 20px; }
+}
+
+/* Remove forced line breaks in headings on phones (they naturally reflow) */
+@media (max-width: 640px) {
+  .hero-headline br,
+  .h-display br,
+  .h-section br { display: none; }
+}
